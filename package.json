@@ -1,7 +1,7 @@
 {
-  "name": "react-native-braintree-dropin-ui",
-  "version": "1.1.7",
-  "description": "> React Native integration of Braintree Drop-in IOS V4 ANDROID V2 (Apple Pay &Android Pay Enabled)",
+  "name": "@genconllc/react-native-braintree-dropin-ui",
+  "version": "2.0.1",
+  "description": "> React Native integration of Braintree Drop-in IOS V9.14.0 ANDROID V6.11.0 (Apple Pay &Android Pay Enabled)",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wgltony/react-native-braintree-dropin-ui.git"
+    "url": "git+https://github.com/genconllc/react-native-braintree-dropin-ui.git"
   },
   "keywords": [
     "react-native",
@@ -22,10 +22,13 @@
   "peerDependencies": {
     "react-native": "*"
   },
-  "author": "tony0130 <wgltony@hotmail.com>",
+  "author": {
+    "name": "Gencon LLC",
+    "url": "https://github.com/genconllc"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wgltony/react-native-braintree-dropin-ui/issues"
+    "url": "https://github.com/genconllc/react-native-braintree-dropin-ui/issues"
   },
-  "homepage": "https://github.com/wgltony/react-native-braintree-dropin-ui#readme"
+  "homepage": "https://github.com/genconllc/react-native-braintree-dropin-ui#readme"
 }
