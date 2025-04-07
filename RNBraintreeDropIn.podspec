@@ -1,22 +1,22 @@
 Pod::Spec.new do |s|
   s.name         = "RNBraintreeDropIn"
-  s.version      = "1.1.6"
+  s.version      = "2.0.1"
   s.summary      = "RNBraintreeDropIn"
   s.description  = <<-DESC
                   RNBraintreeDropIn
                    DESC
-  s.homepage     = "https://github.com/bamlab/react-native-braintree-payments-drop-in"
+  s.homepage     = "https://github.com/genconllc/react-native-braintree-payments-drop-in"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "./LICENSE" }
   s.author             = { "author" => "lagrange.louis@gmail.com" }
-  s.platform     = :ios, "12.0"
-  s.source       = { :git => "https://github.com/BradyShober/react-native-braintree-dropin-ui.git", :tag => "master" }
+  s.platform     = :ios, "14.0"
+  s.source       = { :git => "https://github.com/genconllc/react-native-braintree-dropin-ui.git", :tag => "master" }
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
   s.dependency    'React'
-  s.dependency    'Braintree', '5.20.1'
-  s.dependency    'BraintreeDropIn', '9.8.1'
-  s.dependency    'Braintree/DataCollector', '5.20.1'
-  s.dependency    'Braintree/ApplePay', '5.20.1'
-  s.dependency    'Braintree/Venmo', '5.20.1'
+  s.dependency    'Braintree', '5.27.0'
+  s.dependency    'BraintreeDropIn', '9.14.0'
+  s.dependency    'Braintree/DataCollector', '5.27.0'
+  s.dependency    'Braintree/ApplePay', '5.27.0'
+  s.dependency    'Braintree/Venmo', '5.27.0'
 end
